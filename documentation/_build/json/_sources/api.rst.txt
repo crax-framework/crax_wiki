@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Справка по API сервиса
+-------------------------------------------------------------------------------
+
+Оплата
+======================================================
+
+Tarantool is a Lua application server integrated with a database management system.
+It has a "fiber" model which means that many Tarantool applications can run simultaneously on
+a single thread, while each instance of the Tarantool server itself can run multiple threads for input-output
+and background maintenance. It incorporates the LuaJIT -- "Just In Time" -- Lua compiler,
+Lua libraries for most common applications, and the Tarantool Database Server which
+is an established NoSQL DBMS. Thus Tarantool serves all the purposes that have made node.js
+and Twisted popular, plus it supports data persistence.
+Mail.Ru's hottest data, such as the session data of online users, the
+properties of online applications, the caches of the underlying data, the
+distribution and sharding algorithms, and much more. Outside Mail.Ru the
+software is used by a growing number of projects in online gaming, digital
+marketing, and social media industries. Although Mail.Ru is the sponsor
+for product development, the roadmap and the bugs database and the development process are
+fully open. The software incorporates patches from dozens of community
+contributors. The Tarantool community writes and maintains most of the drivers
+for programming languages.  The greater Lua community has hundreds of useful
+packages most of which can become Tarantool extensions.
+
+Получение ключа
+======================================================
+
+Tarantool is a Lua application server integrated with a database management system.
+It has a "fiber" model which means that many Tarantool applications can run simultaneously on
+a single thread, while each instance of the Tarantool server itself can run multiple threads for input-output
+and background maintenance. It incorporates the LuaJIT -- "Just In Time" -- Lua compiler,
+Lua libraries for most common applications, and the Tarantool Database Server which
+is an established NoSQL DBMS. Thus Tarantool serves all the purposes that have made node.js
+and Twisted popular, plus it supports data persistence.
+Mail.Ru's hottest data, such as the session data of online users, the
+properties of online applications, the caches of the underlying data, the
+distribution and sharding algorithms, and much more. Outside Mail.Ru the
+software is used by a growing number of projects in online gaming, digital
+marketing, and social media industries. Although Mail.Ru is the sponsor
+for product development, the roadmap and the bugs database and the development process are
+fully open. The software incorporates patches from dozens of community
+contributors. The Tarantool community writes and maintains most of the drivers
+for programming languages.  The greater Lua community has hundreds of useful
+packages most of which can become Tarantool extensions.
+
+Формирование и параметры запросов
+======================================================
+
+Tarantool is a Lua application server integrated with a database management system.
+It has a "fiber" model which means that many Tarantool applications can run simultaneously on
+a single thread, while each instance of the Tarantool server itself can run multiple threads for input-output
+and background maintenance. It incorporates the LuaJIT -- "Just In Time" -- Lua compiler,
+Lua libraries for most common applications, and the Tarantool Database Server which
+is an established NoSQL DBMS. Thus Tarantool serves all the purposes that have made node.js
+and Twisted popular, plus it supports data persistence.
+Mail.Ru's hottest data, such as the session data of online users, the
+properties of online applications, the caches of the underlying data, the
+distribution and sharding algorithms, and much more. Outside Mail.Ru the
+software is used by a growing number of projects in online gaming, digital
+marketing, and social media industries. Although Mail.Ru is the sponsor
+for product development, the roadmap and the bugs database and the development process are
+fully open. The software incorporates patches from dozens of community
+contributors. The Tarantool community writes and maintains most of the drivers
+for programming languages.  The greater Lua community has hundreds of useful
+packages most of which can become Tarantool extensions.

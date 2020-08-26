@@ -1,0 +1,12 @@
+.idea
+*.pyc
+__pycache__
+/venv/
+/crax_docs/_images
+/crax_docs/_static
+/documentation/crax_docs/
+/documentation/.directory
+.creds
+.directory
+crax.service
+
