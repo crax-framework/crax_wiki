@@ -52,10 +52,10 @@ Let's create our first simple application. Take a look at a simple bash script b
 This is the first application with a minimal config file, a file that contains your list of URLs, and a file called routers.py that stores your views.
 We also created a directory named `templates` with a simple template named
 `index.html`. A few words about the general architecture of Crax applications. For example, we could create `handlers.py`
-to store our views (handlers)` routers.py` to store our URLs (routes) e.t.c. Only two names are strict for use.
+to store our views (handlers) `routers.py` to store our URLs (routes) e.t.c. Only two names are strict for use.
 
 All database models must be placed in files named `models.py` and
-template files `* .html` must be stored in directories named` templates`. Otherwise, Crax won't be able to find the data.
+template files `* .html` must be stored in directories named `templates`. Otherwise, Crax won't be able to find the data.
 Also, of course, the whole project can be written as one file if desired, but it is recommended to split Crax applications
 for a group of applications that are structured as shown in the Create First Application example. There is one strict rule: all
 your apps in the project (if you finally decide to split logic between apps) should be python packages.
