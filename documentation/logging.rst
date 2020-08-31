@@ -4,15 +4,16 @@ Logging
 -----------------------------------------------
 
 Crax logging is disabled by default. This means that no action, even errors, will be logged.
-To change this behavior, you must set the settings variable to True.
-** DISABLE_LOGS ** The bool type. Enables logging.
+To change this behavior, you must set the settings variable to False.
+
+**DISABLE_LOGS** The bool type. Disables logging.
 After you have enabled the logging backend, you might want to customize it.
 
 **LOG_FORMAT** Variable that sets log formatting in your project log file. Default value is
 `"%(asctime)s — %(name)s — %(levelname)s — %(message)s"`
 
 **LOGGER_NAME** Sets logger name for `logging.getLogger(name)` function. See details at
-`Logging facility for Python <https://docs.python.org/3/library/logging.html/>`_. Default name is "crax".
+`Logging facility for Python <https://docs.python.org/3/library/logging.html>`_. Default name is "crax".
 
 **LOG_LEVEL** Sets logger warn level. Type of string. Default value is "INFO".
 
@@ -24,7 +25,7 @@ After you have enabled the logging backend, you might want to customize it.
 
 **LOGGING_BACKEND** Defines a custom server-side logging module. If for some reason you do not want to use
 Crax default logging backend, you can write your own. When finished, tell Crax about it.
-The type of dot-delimited string. The default is crax.logger.CraxLogger.
+The type of dot-delimited string. The default is `crax.logger.CraxLogger`.
 
 
 .. code-block:: python
@@ -77,11 +78,11 @@ There are two rules for creation your logging backends.
 
 The first is:
 
-    Your backend must be inherited from Crax `Base Logger`
+    Your backend must be inherited from Crax `BaseLogger`
 
 And the last is:
 
-    Your logger must implement the ** get_logger ** method, otherwise you will receive an error.
+    Your logger must implement the **get_logger** method, otherwise you will receive an error.
 
 .. code-block:: python
 
